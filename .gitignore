@@ -1,0 +1,14 @@
+# Ignore the virtual environment folders
+Scripts/
+Include/
+Lib/
+share/
+pyvenv.cfg
+
+# Ignore large data files (recommended for GitHub)
+*.tif
+*.tiff
+
+# Do NOT ignore your notebooks and source code
+!src/
+!*.ipynb
